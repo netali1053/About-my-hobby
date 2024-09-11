@@ -1,0 +1,11 @@
+.entertainments {
+    width: calc((100% - 2 * 45px) / 3);
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px rgb(216, 202, 202) solid;
+    box-shadow: 10px 5px 5px rgb(231, 219, 219);
+    &:not(:last-child) {
+        margin-right: 45px;
+    }
+}

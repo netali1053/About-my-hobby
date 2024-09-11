@@ -1,0 +1,11 @@
+.picture-item {
+    width: calc((100% - 1 * 40px) / 2);
+    img {
+        width: 100%;
+        max-width: 700px;
+        object-fit: cover;
+    }
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+}

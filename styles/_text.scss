@@ -1,0 +1,12 @@
+.text {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    &.text--italic {
+        font-style: italic;
+    }
+    &.text--less {
+        max-width: 950px;
+        margin: 0 auto 25px;
+    }
+}
